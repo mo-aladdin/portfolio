@@ -13,59 +13,118 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
+- name: Framework
+  filter: "framework"
+- name: Library
+  filter: "library"
 - name: Language
   filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Tools
+  filter: "tools"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+- name: Flask
+  logo: /images/skills/flask-icon.webp
+  summary: "Well-verced in using Flask for both Backend API (RESTful) or Fullstack development,<br/>As well as advanced design patterns for more complex projects: Blueprints, Application factories, etc."
+  categories: ["framework"]
+  url: "https://flask.palletsprojects.com/en/stable/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: Angular
+  logo: /images/skills/angular-old.svg
+  summary: "Familiar with using Angular to design Frontend Web Applications. Angular is a powerful framework for building the more complex single page applications (SPAs)."
+  categories: ["framework"]
+  url: "https://angular.io/"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+- name: Hugo
+  logo: /images/skills/hugo-icon.svg
+  summary: "Experienced in using Hugo to quickly design and generate mobile-friendly static sites, with a focus on SEO and mobile performance."
+  categories: ["framework"]
+  url: "https://gohugo.io/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+- name: Flask Security Too
+  # logo: /images/skills/flask-security-icon.webp
+  logo: /images/skills/owl.svg
+  summary: '<a> </a>I have a strong focus on security best-practices and standards, and strictly adhere to <a href="https://owasp.org/" class="text-decoration-none" target="_blank" rel="noopener">OWASP guidelines</a>. I''ve used Flask-Security to implement a vast array of security features such as: <ul style="font-size: 0.9em;"> <li>Full user and account management</li> <li>Multi-Factor Authentication (MFA)</li> <li>Social OAuth</li> <li>Access Control with granular roles and permissions</li> <li>Login tracking</li> </ul>'
+  categories: ["library"]
+  url: "https://flask-security-too.readthedocs.io/en/stable/"
+
+- name: SQLAlchemy
+  logo: /images/skills/sqlalchemy-icon.png
+  summary: "<a></a>Experienced in using SQLAlchemy to design and implement relational Databases.<br/>I employ the <a href='https://en.wikipedia.org/wiki/Database_normalization' class='text-decoration-none' target='_blank' rel='noopener'>Database Normalization Approach</a> to ensure the integerity and maintainablety of the database."
+  categories: ["library"]
+  url: "https://www.sqlalchemy.org/"
+
+- name: Python Docx
+  logo: /images/skills/word.svg
+  summary: "Well versed in building Web Applications to automate the generation of complex MS Word (docx) documents from user-provided content, with full support for rich styles, images,tables, internal and external hyperlinks, and much more."
+  categories: ["library"]
+  url: "https://python-docx.readthedocs.io/en/latest/"
+
+- name: Jinja
+  logo: /images/skills/jinja-icon.svg
+  summary: "Well versed in using Jinja to create complex HTML templates with macros and filters, As well as DOCX templates using Python's docxtpl library."
+  categories: ["library"]
+  url: "https://jinja.palletsprojects.com/en/stable/"
+
+- name: RXJS
+  logo: /images/skills/rxjs.svg
+  summary: "Familiar with the usage and concepts behind RxJS library for writing asynchronous or callback-based code."
+  categories: ["library"]
+  url: "https://rxjs.dev/"
+
+- name: Bootstrap
+  logo: /images/skills/bootstrap.svg
+  summary: "I regulary utilize the Bootstrap toolkit to build a fast, responsive and beautiful frontend."
+  categories: ["library"]
+  url: "https://getbootstrap.com/"
+
+- name: Python
+  logo: /images/skills/python-icon.svg
+  summary: "I utilize Python daily for all sorts of development tasks, including Web Development (Flask), Web Scraping, and task automation."
+  categories: ["language"]
+  url: "https://www.python.org/"
+
+- name: Typescript
+  logo: /images/skills/typescript.svg
+  summary: "TypeScript is strongly typed Javascript! I use it to build large scale applications with Angular, and to write more maintainable code."
+  categories: ["language"]
+  url: "https://www.typescriptlang.org/"
+
+- name: JavaScript
+  logo: /images/skills/javascript.svg
+  summary: "I'm well-acquainted with modern best practices for writing efficient and safe Javascript code. And try to stay up to date with the latest ECMAScript standards."
+  categories: ["language"]
+  url: "https://www.javascript.com/"
+
+- name: SQL
+  logo: /images/skills/sql.svg
+  summary: "I'm knowledgable in SQL syntax and scripting, and have written lots of scripts for data migration. Of course, I use SQLAlchemy for secure and database-agnostic data management."
+  categories: ["language"]
+  url: "https://www.w3schools.com/sql/"
+
+- name: Webpack
+  logo: /images/skills/webpack-icon.svg
+  summary: "I'm familiar with setting-up and configuring Webpack for asset pipelines and script packaging."
+  categories: ["tools"]
+  url: "https://webpack.js.org/"
 
 - name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  logo: /images/skills/linux.png
+  summary: "I daily drive Linux as my main operating system, and am comfortable with using systemd to setup services."
+  categories: ["tools"]
+  url: "https://www.linux.org/"
+
+- name: Bash
+  logo: /images/skills/bash-icon.svg
+  summary: "I'm capable of writing bash/shell scripts for daily task automation."
+  categories: ["tools"]
+  url: "https://www.gnu.org/software/bash/"
 
 - name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
+  logo: /images/skills/git.png
+  summary: "Experienced with version control tools (git), and familiar with the best practices for making granular commits that follow team conventions."
+  categories: ["tools"]
   url: "https://git-scm.com/"
-
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
