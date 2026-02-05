@@ -1,4 +1,10 @@
 {
+  "name": "portfolio",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "hugo server --gc -D --disableFastRender --minify -e production -p 1314",
+    "build": "hugo build --gc --cleanDestinationDir --minify -e production"
+  },
   "comments": {
     "dependencies": {},
     "devDependencies": {
@@ -58,7 +64,5 @@
     "popper.js": "^1.16.1",
     "postcss": "^8.4.41",
     "postcss-cli": "^11.0.0"
-  },
-  "name": "portfolio",
-  "version": "0.1.0"
+  }
 }

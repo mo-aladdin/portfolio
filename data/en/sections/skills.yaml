@@ -69,7 +69,7 @@ skills:
   categories: ["library"]
   url: "https://jinja.palletsprojects.com/en/stable/"
 
-- name: RXJS
+- name: RxJS
   logo: /images/skills/rxjs.svg
   summary: "Familiar with the usage and concepts behind RxJS library for writing asynchronous or callback-based code."
   categories: ["library"]
@@ -87,9 +87,9 @@ skills:
   categories: ["language"]
   url: "https://www.python.org/"
 
-- name: Typescript
+- name: TypeScript
   logo: /images/skills/typescript.svg
-  summary: "TypeScript is strongly typed Javascript! I use it to build large scale applications with Angular, and to write more maintainable code."
+  summary: "TypeScript is strongly typed JavaScript! I use it to build large scale applications with Angular, and to write more maintainable code."
   categories: ["language"]
   url: "https://www.typescriptlang.org/"
 
