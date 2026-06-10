@@ -12,7 +12,7 @@ section:
 degrees:
 - name: "Harvard CS50: Introduction to Computer Science Program"
   icon: fa-microscope
-  timeframe: 2013 - 2017
+  timeframe: 2020
   institution:
     name: Harvard Online
     url: "https://pll.harvard.edu/course/cs50-introduction-computer-science"
@@ -51,7 +51,7 @@ degrees:
   # - Pellentesque ut fringilla magna.
   customSections: #(optional)
     - name: Thoughts
-      content: CS50 was my introduction to the foundations of computer science and played a significant role in shaping my journey as a developer. The course provided a strong understanding of core concepts such as algorithms, data structures, memory management, and software design, while encouraging problem-solving and analytical thinking. Beyond the technical knowledge, it sparked a genuine enthusiasm for computer science and gave me the confidence to continue learning independently. I thoroughly enjoyed every part of the course and cannot recommend it highly enough to anyone interested in exploring computer science, whether they are complete beginners or looking to strengthen their fundamentals.
+      content: CS50 was my introduction to the foundations of computer science and played a significant role in shaping my journey as a developer. <br/> Beyond the technical knowledge, it sparked a genuine enthusiasm for computer science and gave me the confidence to continue learning independently. <br/> I thoroughly enjoyed every part of the course and cannot recommend it highly enough to anyone interested in exploring computer science, whether they are complete beginners or looking to strengthen their fundamentals.
 
 
 
