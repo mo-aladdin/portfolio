@@ -5,11 +5,56 @@ section:
   template: sections/education.html # Use "education-alt.html for alternate template.
   enable: true
   weight: 4
-  showOnNavbar: false
+  showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 degrees:
+- name: "Harvard CS50: Introduction to Computer Science Program"
+  icon: fa-microscope
+  timeframe: 2013 - 2017
+  institution:
+    name: Harvard Online
+    url: "https://pll.harvard.edu/course/cs50-introduction-computer-science"
+    logo: /images/education/harvard.png
+    darklogo: /images/education/harvard-dark.svg
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.9
+  #   outOf: 4
+  # takenCourses: #(optional)
+  #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #   showGrades: true
+  #   collapseAfter: 3
+  #   courses:
+  #   - name: Data Structures and Algorithm
+  #     achieved: 3.75
+  #     outOf: 4
+  #   - name: Network Security
+  #     achieved: 3.80
+  #     outOf: 4
+  #   - name: Operating System
+  #     achieved: 3.5
+  #     outOf: 4
+  #   - name: Artificial Intelligent
+  #     achieved: 3.75
+  #     outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+  customSections: #(optional)
+    - name: Thoughts
+      content: CS50 was my introduction to the foundations of computer science and played a significant role in shaping my journey as a developer. The course provided a strong understanding of core concepts such as algorithms, data structures, memory management, and software design, while encouraging problem-solving and analytical thinking. Beyond the technical knowledge, it sparked a genuine enthusiasm for computer science and gave me the confidence to continue learning independently. I thoroughly enjoyed every part of the course and cannot recommend it highly enough to anyone interested in exploring computer science, whether they are complete beginners or looking to strengthen their fundamentals.
+
+
+
 - name: B.Sc. in Accounting and Information Systems
   icon: fa-graduation-cap
   timeframe: 2013 - 2017
