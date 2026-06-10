@@ -17,42 +17,46 @@ experiences:
     location: Remote
     logo: /images/experiences/laneden-light.png
     darkLogo: /images/experiences/laneden-dark.png
-    overview: I've been responsible for the continuous development and maintenance of Web Applications. My focus has been on Python (Flask) for back-end work, but I’ve also handled full-stack tasks like front-end development (Angular), database design, and application deployment.<br/> Working within a security company has taught me a lot about security best-practices, and the importance of following security standards like the OWASP guidelines.
+    overview: Designed, developed, and deployed a modular cybersecurity assessment and reporting platform used to manage the full lifecycle of security engagements, from vulnerability discovery and knowledge curation to client-facing report generation and project management.<br/> Working within a security company has taught me a lot about security best-practices, and the importance of following security standards like the OWASP guidelines.
   positions:
   - designation: Software Engineer
     start: July 2021
     end: December 2024
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+       - Designed the overall system architecture and data flow across multiple interconnected platform modules.
+       - Designed and implemented relational database schemas for vulnerability management, reporting, and engagement tracking.
+       - Developed backend services, APIs, and business logic using Python and Flask.
+       - Developed frontend applications and rich user interfaces for report authoring and engagement management.
+       - Implemented document generation pipelines supporting dynamic DOCX templates and white-label reporting.
+       - Built integrations for processing and normalizing findings from multiple security assessment tools.
+       - Developed role-based authentication and authorization mechanisms across platform modules.
+       - Managed application deployment, configuration, and maintenance across staging and production environments.
 
 - company:
     name: Freelance
     # url: "https://www.example.com"
     location: Remote
-    logo: /images/experiences/company1.jpg
-    # darkLogo: /images/experiences/laneden-dark.png
-    # company overview
-    overview: Developed solutions for automating Microsoft Office applications using VBA, specializing in Microsoft Access and Excel solutions for business and personal use.
+    logo: /images/experiences/freelancer.svg
+    darkLogo: /images/experiences/freelancer-dark.svg
+    company overview: dfdg
+    overview: Developed lightweight, efficient web solutions for businesses and individuals. My work includesddeveloping RESTful APIs, custom web applications, and small JavaScript utilities to automate tasks and improve workflows. I also handled API integrations with third-party services, database design, backend logic, deployment, and ongoing maintenance, with a focus on clean code, reliability, and practical solutions tailored to client needs.
   positions:
   - designation: Freelance Web Developer
     start: January 2021
     end: June 2021
     responsibilities:
-      - Develop client-side JavaScript applications using Angular
-      - Develop back-end functionality using Python under the Flask framework
-      - Create SQL databases to process and store website data (Login system, user profiles, etc)
-      - Creation and integration of API endpoints.
+      - Developed back-end applications and APIs using Python under the Flask framework
+      - Developed client-side JavaScript applications using Angular
+      - Created SQL databases to process and store website data (Login system, user profiles, etc)
+      - Handled integration of RESTful APIs.
 
 - company:
     name: Freelance
     # url: "https://www.example.com"
     location: Remote
-    logo: /images/experiences/company1.jpg
-    # darkLogo: /images/experiences/laneden-dark.png
-    # company overview
-    overview: Developed solutions for automating Microsoft Office applications using VBA, specializing in Microsoft Access and Excel solutions for business and personal use.
+    logo: /images/experiences/freelancer.svg
+    darkLogo: /images/experiences/freelancer-dark.svg
+    overview: Built solutions for automating Microsoft Office applications using VBA, specializing in Microsoft Access and Excel solutions for business and personal use.
   positions:
   - designation: Freelamce VBA Developer
     # don't provide end date if you are currently working there. It will be replaced by "Present"

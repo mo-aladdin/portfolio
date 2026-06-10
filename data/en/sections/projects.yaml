@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Projects
+  name: Project Highlights
   id: projects
   enable: true
   weight: 5
@@ -9,57 +9,46 @@ section:
   # hideTitle: true
 
 # filter buttons
-buttons:
-- name: All
-  filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Professional
+#   filter: "Professional"
+# - name: Academic
+#   filter: "academic"
+# - name: Hobby
+#   filter: "hobby"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
-
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
+- name: Vulnerability Parsing and Curation System
+  logo: /images/experiences/laneden-icon.png
+  image: images/sections/projects/sys-arc-parsing.webp
   role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  timeline: "April 2022 - December 2024"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: The Vulnerability Parsing and Curation System is a massive data collection and analysis platform, transforming raw output from security assessment tools into standardized, reusable security knowledge. <br/> The system aggregates findings from multiple scanners and auditing tools, correlates them with affected client assets, and enriches them using authoritative cybersecurity frameworks and standards. <br/> Through a structured curation process, security experts validate, classify, and maintain a repository of approved vulnerability descriptions, risk information, and remediation guidance that can be consistently reused across client engagements, reducing reporting effort while improving quality and accuracy.
+  tags: ["Professional", "Data Processing", "XML Parsing", "Flask", "Python", "Backend", "Database Design"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: Security Report Authoring Portal
+  logo: /images/experiences/laneden-icon.png
+  image: images/sections/projects/sys-arc-reporting.webp
+  role: Developer
+  timeline: "April 2022 - December 2024"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: The Reporting Portal is a web-based report authoring platform that enables security engineers to create automated professional cybersecurity assessment reports. <br/> It combines curated vulnerabilities, affected assets, manually discovered findings, and supporting evidence into a unified reporting workflow. <br/> The platform provides advanced document editing capabilities, allowing engineers to customize findings, assign risk ratings, manage proof-of-exploit artifacts, and tailor recommendations to each client's environment. <br/> Through a flexible template-driven document generation engine, the portal produces high-quality, client-ready reports across multiple assessment types while supporting extensive white-label customization requirements.
+  tags: ["Professional", "Docx Generation", "PDF Generation", "System Architecture", "Flask", "Python", "Backend", "System Architecture"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+
+- name: Engagement Manager
+  logo: /images/experiences/laneden-icon.png
+  image: images/sections/projects/sys-arc-engagement.webp
+  role: Developer
+  timeline: "April 2022 - December 2024"
+  # repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: The Engagement Management Portal acts as the central coordination and governance layer for the entire cybersecurity assessment lifecycle. <br/> It enables project managers to initiate engagements, define assessment scope, manage contracts and authorization documents, assign resources, and monitor project progress from planning through delivery. <br/> The portal orchestrates workflows between the vulnerability management and reporting systems, ensuring that assessments proceed through the appropriate approval and execution stages. <br/> It also provides centralized authentication, authorization, audit logging, and engagement lifecycle management, serving as the operational backbone that ties all platform components together while ensuring security, accountability, and process consistency.
+  tags: ["Professional", "Dashboard", "Authorization System", "Management System", "Python", "Backend", "System Architecture"]
