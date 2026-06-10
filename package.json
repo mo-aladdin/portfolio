@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "hugo server --gc -D --disableFastRender --minify -e production -p 1314",
-    "build": "hugo build --gc --cleanDestinationDir --minify -e production"
+    "build": "hugo build --gc --cleanDestinationDir --minify -e production",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
   },
   "comments": {
     "dependencies": {},
@@ -36,7 +38,6 @@
       "postcss-cli": "github.com/hugo-toha/toha/v4"
     }
   },
-  "dependencies": {},
   "devDependencies": {
     "@fontsource/mulish": "4.5.13",
     "@fortawesome/fontawesome-free": "^6.6.0",
@@ -63,6 +64,7 @@
     "plyr": "^3.7.2",
     "popper.js": "^1.16.1",
     "postcss": "^8.4.41",
-    "postcss-cli": "^11.0.0"
+    "postcss-cli": "^11.0.0",
+    "wrangler": "^4.99.0"
   }
 }
